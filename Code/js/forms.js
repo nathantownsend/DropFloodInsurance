@@ -13,7 +13,7 @@
 						successCl:'success',
 						successShow:'4000',
 						mailHandlerURL:'bin/MailHandler.php',
-						ownerEmail:'help@lowerfloodinsurance.com',
+						ownerEmail:'support@dropfloodinsurance.com',
 						stripHTML:true,
 						smtpMailServer:'smtp.gmail.com',
 						targets:'input,textarea',
@@ -188,5 +188,5 @@
 $(function(){
    $('#contact-form').forms({
 	 ownerEmail:'wbrandonmlang@gmail.com'
-	 })
+   })
 })
