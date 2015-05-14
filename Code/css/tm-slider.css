@@ -1,0 +1,100 @@
+* {
+	padding:0;
+	margin:0;
+}
+.slider {
+	width:980px;
+	height:450px;
+	overflow:hidden;
+	left:0;
+	position:relative;
+	z-index:1;
+}
+.items {display:none;}
+.pic {height:445px !important;}
+
+.pagination {
+	position:absolute;
+	bottom:10px; 
+	right:0px;
+	z-index:9999;
+	width:81px; 
+	height:25px;
+}
+.pagination li {
+	float:left;
+	padding-top:0px;
+	margin-right:2px;
+	height:25px;
+	width:25px;
+	background:url(../images/bull.png) 0 -25px no-repeat;
+}
+.pagination li:hover {
+	background:url(../images/bull.png) 0 0px no-repeat;
+}
+.pagination li.current {
+	background:url(../images/bull.png) 0 0px no-repeat;
+}
+.pagination li a {
+	color:#fff;
+	font-size:0px;
+	line-height:40px;
+	display:block;
+	width:25px;
+	height:25px;
+	display:block;
+}
+
+.banner {
+	text-align:left;
+	width:270px;
+	min-height:284px;
+	position:absolute;
+	right:18px;
+	top:110px;
+	color:#5f5f5f;
+	font-size:42px;
+	line-height:38px;
+	*line-height:45px;
+	z-index:9998;	
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform:uppercase;
+	font-weight:300;
+}
+.banner h2 {
+	font-family: 'Pacifico', cursive;
+	font-size:32px;
+	line-height:1.2em;
+	display:block;
+	color:#fff;
+	font-weight:normal;
+	margin-bottom:5px;
+	padding:0 0 0 69px;
+}
+.banner h5 {
+	font-size:36px;
+	line-height:1.2em;
+	display:inline-block;
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-weight:normal;
+	font-weight:300;
+	margin-top:-15px;
+	padding:0 0 0 20px;
+}
+.banner  a {
+	background:url(../images/bg-banner-button.png) 0 0 no-repeat;
+	display:block;
+	width:142px !important; 
+	height:143px !important;
+	position:absolute;
+	top:137px;
+	left:1px;
+}
+.banner a:hover {
+	background:url(../images/bg-banner-button.png) 0 -143px no-repeat;
+}
+.b1 {
+	left:674px;
+	top:80px;
+}

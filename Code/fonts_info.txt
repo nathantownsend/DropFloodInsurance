@@ -1,0 +1,5 @@
+List of Fonts used in template 
+
+PT Sans		http://www.google.com/webfonts/family?family=PT+Sans+Narrow&subset=latin
+Opensans	http://www.google.com/webfonts/list?family=Open+Sans&subset=latin
+Lobster		http://code.google.com/webfonts
